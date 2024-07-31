@@ -1,0 +1,32 @@
+.Header {
+  display: none;
+}
+@media screen and (max-width: 678px) {
+  .BG-Image {
+    margin-top: 20vh;
+  }
+  .Title {
+    font-size: 30px;
+  }
+  .Grids-Main {
+    width: 100%;
+  }
+  .Grids {
+    grid-template-columns: none;
+  }
+  .BG-Image {
+    margin-top: 30vh;
+  }
+  .Header {
+    display: flex;
+  }
+  .Grid {
+    width: 100%;
+  }
+  .Footer-Main {
+    display: none;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 100px;
+  }
+}
