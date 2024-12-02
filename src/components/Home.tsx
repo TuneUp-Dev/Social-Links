@@ -23,7 +23,7 @@ function Home() {
           />
         </div>
         <div className="p-10 fixed outfit-font w-full h-[100vh]">
-          <div className="Header grid grid-cols-2 text-[13px] justify-between w-full px-[3%] mx-auto bottom-12">
+          <div className="Header grid grid-cols-1 md:grid-cols-2 text-[13px] justify-between w-full px-[3%] mx-auto bottom-12">
             <a
               href="tel:9944500207"
               className="mb-1 flex gap-2.5  text-green-400 font-medium"
